@@ -14,4 +14,4 @@ set logscale x
  set arrow  2 from  5000.0000000000000,graph 0.05 to  5000.0000000000000,graph 0.01 lt -1 lw 2 
  set arrow  3 from  10000.000000000000,graph 0.05 to  10000.000000000000,graph 0.01 lt -1 lw 2 
  set arrow  4 from  20000.000000000000,graph 0.05 to  20000.000000000000,graph 0.01 lt -1 lw 2
- plot 'c_00000000_00000000_ALL_ALL_VI_0_rednmc02.scores2' using 2:13 title 'OBS' with linespoints lt 3 lw 2 pt 7,'c_00000000_00000000_ALL_ALL_VI_0_rednmc02.scores2' using 2:14 title 'rednmc02' with linespoints lt 1 lw 2 pt 7,'c_00000000_00000000_ALL_ALL_VI_0_rednmc02_anaF.scores2' using 2:14 title 'rednmc02_anaF' with linespoints lt 2 lw 2 pt 7
+ plot 'c_00000000_00000000_ALL_ALL_VI_0_anaTrue.scores2' using 2:13 title 'OBS' with linespoints lt 3 lw 2 pt 7,'c_00000000_00000000_ALL_ALL_VI_0_anaTrue.scores2' using 2:14 title 'anaTrue' with linespoints lt 1 lw 2 pt 7,'c_00000000_00000000_ALL_ALL_VI_0_anaFalse.scores2' using 2:14 title 'anaFalse' with linespoints lt 2 lw 2 pt 7

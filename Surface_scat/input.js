@@ -16,8 +16,8 @@ t[4] = ['Mslp','Station pressure','U10m','Max Wind Gust','Wind direction','T2m',
 v[5] = [0]
 v[5] = v[5].reverse()
 t[5] = v[5]
-v[6] = ['rednmc02','rednmc02_anaF']
-t[6] = ['rednmc02','rednmc02_anaF']
+v[6] = ['anaTrue','anaFalse']
+t[6] = ['anaTrue','anaFalse']
 v[7] = ['ALL'] ;
 t[7] = v[7] ;
 
